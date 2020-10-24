@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_directions_bike_24"/>
+
+    <EditText
+
+        android:layout_gravity="center"
+        android:id="@+id/email"
+        android:background="@drawable/btnbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/btnbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:id="@+id/password"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/btnbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:id="@+id/nama"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"/>
+<EditText
+        android:layout_gravity="center"
+        android:background="@drawable/btnbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No hp"
+        android:inputType="number"
+        android:id="@+id/nohp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"/>
+<EditText
+        android:layout_gravity="center"
+        android:background="@drawable/btnbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:id="@+id/alamat"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"/>
+<EditText
+        android:layout_gravity="center"
+        android:background="@drawable/btnbackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="No Ktp"
+        android:id="@+id/noktp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_gravity="center"
+        android:textColorHint="#fff"
+        android:background="@drawable/btnlog"
+        android:id="@+id/btn_register"
+        android:layout_width="130dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Register" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textlogin"
+        android:textColor="#000"
+        android:text="Atau sudah punya Akun?"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
