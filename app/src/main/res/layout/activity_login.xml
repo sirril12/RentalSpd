@@ -67,7 +67,7 @@
 
         <Button
             android:id="@+id/btn_login"
-            android:textColorHint="#fff"
+            android:textColorHint="#000"
             android:background="@drawable/btnlog"
             android:layout_width="110dp"
             android:layout_marginLeft="20dp"
