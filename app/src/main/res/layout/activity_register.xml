@@ -4,108 +4,142 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".RegisterActivity">
+    tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/ic_baseline_directions_bike_24"/>
+        <ImageView
+            android:layout_width="147dp"
+            android:layout_height="142dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/logo2" />
 
-    <EditText
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="SILAHKAN REGISTER DULU !"
+            android:textColor="#000000"
+            android:textSize="17dp" />
 
-        android:layout_gravity="center"
-        android:id="@+id/email"
-        android:background="@drawable/btnbackground"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:padding="15dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginHorizontal="20dp"/>
+        <EditText
+            android:id="@+id/txtusernameReg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="0dp"
+            android:hint="Username"
+            android:textColorHint="#797979"
+            android:textStyle="bold"
+            app:backgroundTint="#797979" />
 
-    <EditText
-        android:layout_gravity="center"
-        android:background="@drawable/btnbackground"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:hint="Password"
-        android:id="@+id/password"
-        android:padding="15dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="20dp"/>
+        <EditText
+            android:id="@+id/txtpasswordReg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#797979"
+            android:textStyle="bold"
+            app:backgroundTint="#797979" />
 
-    <EditText
-        android:layout_gravity="center"
-        android:background="@drawable/btnbackground"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Nama"
-        android:id="@+id/nama"
-        android:padding="15dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="20dp"/>
-<EditText
-        android:layout_gravity="center"
-        android:background="@drawable/btnbackground"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="No hp"
-        android:inputType="number"
-        android:id="@+id/nohp"
-        android:padding="15dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="20dp"/>
-<EditText
-        android:layout_gravity="center"
-        android:background="@drawable/btnbackground"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Alamat"
-        android:id="@+id/alamat"
-        android:padding="15dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="20dp"/>
-<EditText
-        android:layout_gravity="center"
-        android:background="@drawable/btnbackground"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:hint="No Ktp"
-        android:id="@+id/noktp"
-        android:padding="15dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginHorizontal="20dp"/>
+        <EditText
+            android:id="@+id/txtemailReg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#797979"
+            android:textStyle="bold"
+            app:backgroundTint="#797979" />
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_marginTop="20dp"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
+        <EditText
+            android:id="@+id/txtnotlpReg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="NoTelepon"
+            android:inputType="number"
+            android:textColorHint="#797979"
+            android:textStyle="bold"
+            app:backgroundTint="#797979" />
 
-    <Button
-        android:layout_gravity="center"
-        android:textColorHint="#fff"
-        android:background="@drawable/btnlog"
-        android:id="@+id/btn_register"
-        android:layout_width="130dp"
-        android:layout_marginHorizontal="20dp"
-        android:layout_height="wrap_content"
-        android:hint="Register" />
+        <EditText
+            android:id="@+id/txtnoktpReg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="NoKtp"
+            android:inputType="number"
+            android:textColorHint="#797979"
+            android:textStyle="bold"
+            app:backgroundTint="#797979" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textlogin"
-        android:textColor="#000"
-        android:text="Atau sudah punya Akun?"
-        android:layout_marginTop="15dp"/>
+        <EditText
+            android:id="@+id/txtalamatReg"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Alamat"
+            android:inputType="text"
+            android:textColorHint="#797979"
+            android:textStyle="bold"
+            app:backgroundTint="#797979" />
 
-</LinearLayout>
+        <Button
+
+            android:id="@+id/btnregister"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btnuser"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah punya akun?"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Login"
+                android:textColor="#673AB7"
+                android:textStyle="bold" />
+
+        </LinearLayout>
 
 </LinearLayout>

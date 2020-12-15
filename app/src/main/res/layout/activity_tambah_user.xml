@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Admin.TambahUserActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:background="#fff"
+        android:gravity="center_vertical"
+        android:paddingBottom="8sp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="#3E08B8">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvActionUserManage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TAMBAH USER"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+                android:textSize="11sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:paddingRight="18sp"
+            android:paddingLeft="18sp"
+            android:visibility="gone">
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+        <EditText
+            android:id="@+id/txtusername"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="0dp"
+            android:hint="Username"
+            android:textColorHint="#797979"
+            android:textStyle="bold"
+            app:backgroundTint="#797979" />
+
+        <EditText
+            android:id="@+id/txtemail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="0dp"
+            android:hint="Email"
+            android:textColorHint="#797979"
+            android:textStyle="bold"
+            app:backgroundTint="#797979" />
+
+         <EditText
+           android:id="@+id/txtpassword"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginEnd="20dp"
+           android:layout_marginBottom="0dp"
+           android:hint="Password"
+           android:textColorHint="#797979"
+           android:textStyle="bold"
+           app:backgroundTint="#797979" />
+        <EditText
+            android:id="@+id/txtnoktp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="0dp"
+            android:hint="NoKtp"
+            android:textColorHint="#797979"
+            android:textStyle="bold"
+            app:backgroundTint="#797979" />
+
+         <EditText
+            android:id="@+id/txtnotlp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="0dp"
+            android:hint="NoTlp"
+            android:textColorHint="#797979"
+            android:textStyle="bold"
+            app:backgroundTint="#797979" />
+
+       <EditText
+           android:id="@+id/txtalamat"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginEnd="20dp"
+           android:layout_marginBottom="0dp"
+           android:hint="Alamat"
+           android:textColorHint="#797979"
+           android:textStyle="bold"
+           app:backgroundTint="#797979" />
+
+        <Button
+
+            android:id="@+id/btntambahuser"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/btnbackground"
+            android:text="Tambah User"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
